@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "packages",
+  "info": {
+    "name": "packages",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "items": {
+      "collection": "item",
+      "via": "-",
+      "dominant": true
+    }
+  }
+}
